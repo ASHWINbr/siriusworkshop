@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> ADD MOVIE </title>
+<link rel="stylesheet" href="content.css">
+<link rel="stylesheet" href="movie.css">
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+<meta name="description" content="my site">
+<meta charset="utf-8">
+</head>
+<body>
+<header>
+  <img class="fleft" src="F:\siriusworkshop\sirius-step\images\projector-logo.png">
+  <nav>
+    <ul class="fright">
+      <li> <a href="#">HOME</a></li>
+      <li> <a href="#">ADD MOVIE</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="clearfix"></div>
+<h2 class="addmovieformh2"> ADD A MOVIE </h2>
+<form class="addmovieform">
+<ul>
+    <li>
+    <label for ="MOVIE NAME" > MOVIE NAME</label>
+    <input id="text" id= "movie name" name ="movie"/>
+  </li>
+  <li>
+  <label for=" RELEASE YEAR" >RELEASE YEAR </label>
+  <input type="text" id="release year" name ="release year"/>
+  </li>
+  <li>
+    <div class="divide language_div">
+  <label for="language">language</label>
+<select  name="language">
+  <option value="tamil">tamil</option>
+  <option value="english">english</option>
+  <option value="hindi">hindi</option>
+</select>
+</div><div class="divide">
+<label for="rating">rating</label>
+<select name="rating">
+<option value="1">1</option>
+<option value="1.5">1.5</option>
+<option value="2">2</option>
+<option value="2.5">2.5</option>
+<option value="3.5">3</option>
+<option value="4">4</option>
+<option value="4.5">4.5</option>
+<option value="5">5</option>
+</select>
+</li>
+</div>
+<li>
+  <label for ="turl">thumbnail url</label>
+  <input type="url" name="trul" required/>
+</li>
+<li>
+  <label for ="plot">plot</label></br>
+  <textarea rows="5" cols="5" name="plot" required></textarea>
+</li>
+<li>
+  <label for ="purl">post url</label>
+  <input type="url" name="prul" required/>
+</li>
+<li>
+      <label for ="cast">cast</label></br>
+      <textarea rows="5" cols="5" name="cast" required></textarea>
+    </li>
+    <li>
+      <center>
+      <button type="submit" class ="bu"> SAVE </button>
+    </center>
+    </li>
+</ul>
+</form>
+<footer>
+  <a href  =""><img class="foo" src="F:\siriusworkshop\sirius-step\images\facebook.png"></a>
+  <a href =""><img class="foo" src="F:\siriusworkshop\sirius-step\images\instagram.png"></a>
+  <a href =""><img class="foo" src="F:\siriusworkshop\sirius-step\images\twitter.png"></a>
+  <a href =""><img id="finallogo"src="F:\siriusworkshop\sirius-step\images\projector-logo.png"></a>
+</footer>
+</body>
+</html>
