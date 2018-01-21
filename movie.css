@@ -1,0 +1,180 @@
+section{
+    padding: 0 40px;
+    padding-bottom: 84px;
+}
+.category{
+    margin-bottom: 40px;
+}
+.categoryName {
+    font-size: 1.8rem;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.movie {
+    margin-bottom: 10px;
+    width: 20%;
+}
+
+.movie .poster {
+    width: 180px;
+    height: 230px;
+    overflow: hidden;
+    /* margin: 0 auto; */
+    margin-bottom: 15px;
+}
+
+.poster img{
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.details {
+    width: 180px;
+    /* margin: 0 auto; */
+}
+.details .yearOfRelease {
+    margin: 5px 0;
+    font-size: 0.8rem;
+}
+
+.details .name{
+    margin: 5px 0;
+    font-weight: 100;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.stars .star {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+    display: inline-block;
+    background-position: center;
+    background-size: contain;
+}
+
+.star-full {
+    background-image: url("../images/star-full.png");
+}
+
+.star-half {
+    background-image: url("../images/star-half.png");
+}
+
+.star-empty {
+    background-image: url("../images/star-empty.png");
+}
+
+.logo
+{
+  width:200px;
+  float: left;
+}
+.fleft
+{
+  width: 250px;
+  height: 50px;
+  float:left;
+}
+.fright
+{
+  float: right;
+}
+.clearfix
+{
+  clear:both;
+}
+header
+{
+padding:40px;
+height:40px;
+}
+body
+{
+  background-color:#500660;
+  font-family:'Roboto', sans-serif;
+  color:white;
+}
+header ul li
+{
+display:inline-block;
+color: #ffcb59;
+}
+header ul li a
+{
+text-decoration: none;
+font-size: 13px;
+color: #ffcb59;
+}
+.addmovieform
+{
+  width: 500px;
+  margin:0 auto;
+}
+.addmovieformh2
+{
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.addmovieform label,.addmovieform input
+{
+  display: block;
+}
+.addmovieform input,.addmovieform textarea,.addmovieform select
+{
+  width:100%;
+  background-color: #442D4B;
+border: 1px solid white;
+margin: 7px 0px  15px;
+color:white;
+padding: 0 5px;
+font-size: 20px;
+font-family: 'Lato', sans-serif;
+}
+.addmovieform input
+{
+ height:40px;
+}
+footer{
+  background-color: black;
+}
+.foo
+{
+width:40px;
+height:45px;
+}
+#finallogo
+{
+  background-color: black;
+  margin-left:28cm;
+  width: 150px;
+  height: 40px;
+}
+.bu
+{
+  display: block;
+  background-color: orange;
+  border:none;
+  padding: 18px;
+  color: white;
+  font-size: 18px;
+  width: 100px;
+  margin-bottom: 100px;
+}
+.language_div
+{
+  padding-right:10px;
+}
+.divide
+{
+  display:inline-block;
+  width :50%;
+}
+form
+{
+white-space: nowrap;
+}

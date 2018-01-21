@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title> ADD MOVIE </title>
+<meta name="description" content="my site">
+<meta charset="utf-8">
+<style type="text/css">
+body {
+           background-color: #500660;
+     }
+footer{
+  background-color: black;
+}
+.foo
+{
+width:40px;
+height:45px;
+}
+.projectorlogo
+{
+  margin-left:100px;
+}
+#finallogo
+{
+  background-color: black;
+  margin-left:28cm;
+  width: 150px;
+  height: 40px;
+}
+
+
+</style>
+</head>
+<body>
+<header>
+  <div class="projectorlogo">
+  <img src="F:\siriusworkshop\sirius-step\images\projector-logo.png" width="250" height="50">
+       <a href="#">HOME</a>
+       <a href="#">ADD MOVIE</a>
+</div>
+</header>
+<center>
+<h2> ADD A MOVIE </h2>
+<form action="/sample-action" method ="post">
+  <li>
+    <label for ="MOVIE NAME" > MOVIE NAME</label>
+    <input id="text" id= "movie name" name ="movie"/>
+  </li>
+  <li>
+  <label for=" RELEASE YEAR" >RELEASE YEAR </label>
+  <input type="text" id="release year" name ="release year"/>
+  </li>
+  <li>
+  <label for="language">language</label>
+<select class="" name="language">
+  <option value="tamil">tamil</option>
+  <option value="english">english</option>
+  <option value="hindi">hindi</option>
+</select>
+</li>
+<li>
+<label for="rating">rating</label>
+<select class="" name="rating">
+<option value="1">1</option>
+<option value="1.5">1.5</option>
+<option value="2">2</option>
+<option value="2.5">2.5</option>
+<option value="3.5">3</option>
+<option value="4">4</option>
+<option value="4.5">4.5</option>
+<option value="5">5</option>
+</select>
+</li>
+<li>
+  <label for ="turl">thumbnail url</label>
+  <input type="url" name="trul" required/>
+</li>
+<li>
+  <label for ="plot">plot</label></br>
+  <textarea rows="5" cols="5" name="plot" required></textarea>
+</li>
+<li>
+  <label for ="purl">poast url</label>
+  <input type="url" name="prul" required/>
+</li>
+<li>
+      <label for ="cast">cast</label></br>
+      <textarea rows="5" cols="5" name="cast" required></textarea>
+    </li>
+    <li>
+      <input type="submit"  name="button" value="submit">
+    </li>
+</ul>
+</center>
+</form>
+<footer>
+  <img class="foo" src ="F:\siriusworkshop\sirius-step\images\facebook.png" >
+  <img class="foo" src="F:\siriusworkshop\sirius-step\images\instagram.png">
+  <img class="foo" src="F:\siriusworkshop\sirius-step\images\twitter.png" >
+  <img id="finallogo" src="F:\siriusworkshop\sirius-step\images\projector-logo.png" >
+</footer>
+</body>
+</html>
